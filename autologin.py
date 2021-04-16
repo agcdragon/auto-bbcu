@@ -6,6 +6,7 @@ import html
 import datetime
 import time
 import keyboard
+import random 
 
 ############################################################################
 #                   ENTER YOUR BBCU LINKS AND LUNCH BLOCKS                 #
@@ -98,7 +99,7 @@ while True:
 			webbrowser.open(link, new=0)
 			print("Joining class.")
 
-			class_time = int(i[2].timestamp()-now.timestamp())
+			class_time = int(i[2].timestamp()-now.timestamp()) + int(random.random()*23+7)
 			print(class_time, "seconds until class ends.")
 			time.sleep(class_time)
 
