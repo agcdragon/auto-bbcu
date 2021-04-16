@@ -1,4 +1,4 @@
-# senior-skip-day
+# auto-bbcu
 I wrote a python script to auto-login and auto-logoff BBCollab for TJ students during virtual school, so that students don't forget to login/logoff.
 
 ## Installation
