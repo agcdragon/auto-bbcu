@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.3
+bs4==0.0.1
+keyboard==0.13.5
+soupsieve==2.2.1
